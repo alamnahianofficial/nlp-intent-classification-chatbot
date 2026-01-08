@@ -1,0 +1,148 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        "hey there",
+        "what's up",
+        "yo",
+        "good morning",
+        "good evening"
+      ],
+      "responses": [
+        "Hello!",
+        "Hi there ",
+        "Hey! How can I help you?",
+        "Hi! Nice to see you."
+      ]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": [
+        "how are you",
+        "how are you doing",
+        "how is it going",
+        "are you okay"
+      ],
+      "responses": [
+        "I'm doing well, thanks for asking!",
+        "All good here  How about you?",
+        "I'm fine! Hope you're doing well."
+      ]
+    },
+    {
+      "tag": "user_feeling",
+      "patterns": [
+        "i am fine",
+        "im fine",
+        "i am good",
+        "im good",
+        "doing well",
+        "i am okay",
+        "im okay",
+        "all good"
+      ],
+      "responses": [
+        "Glad to hear that ",
+        "That's good to know!",
+        "Nice! Let me know if you need anything."
+      ]
+    },
+    {
+      "tag": "bot_identity",
+      "patterns": [
+        "who are you",
+        "what are you",
+        "are you a bot",
+        "tell me about yourself",
+        "what can you do"
+      ],
+      "responses": [
+        "I'm a simple conversational chatbot built using NLP.",
+        "I'm a chatbot designed for basic conversations.",
+        "I'm not human, but I'm here to chat "
+      ]
+    },
+    {
+      "tag": "small_talk",
+      "patterns": [
+        "what are you doing",
+        "are you free",
+        "let's talk",
+        "can we chat",
+        "tell me something"
+      ],
+      "responses": [
+        "I'm here chatting with you!",
+        "Just waiting to talk with you ",
+        "Sure, I'm listening."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "help",
+        "can you help me",
+        "i need help",
+        "i am confused",
+        "what should i do"
+      ],
+      "responses": [
+        "Sure, tell me what you need help with.",
+        "I'll try my best to help you.",
+        "Please explain your problem."
+      ]
+    },
+    {
+      "tag": "compliment",
+      "patterns": [
+        "you are good",
+        "nice bot",
+        "you are helpful",
+        "good job",
+        "well done"
+      ],
+      "responses": [
+        "Thank you! ",
+        "Glad to hear that!",
+        "That means a lot, thanks!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks",
+        "thank you",
+        "thanks a lot",
+        "appreciate it",
+        "many thanks"
+      ],
+      "responses": [
+        "You're welcome!",
+        "No problem ",
+        "Happy to help!"
+      ]
+    },
+  {
+  "tag": "goodbye",
+  "patterns": [
+    "bye",
+    "goodbye",
+    "good bye",
+    "see you",
+    "see you later",
+    "take care",
+    "good night"
+  ],
+  "responses": [
+    "Goodbye! ",
+    "See you soon!",
+    "Take care!",
+    "Have a great day!"
+  ]
+}
+  ]
+}
